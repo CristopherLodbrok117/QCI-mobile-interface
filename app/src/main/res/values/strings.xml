@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QCImobile</string>
+
+    <!--  Login Activity  -->
+    <string name="hint_txt_code">código</string>
+    <string name="hint_txt_pass">nip</string>
+    <string name="btn_login_text">Entrar</string>
+
+    <string name="btn_aux_text">AUX</string>
+
+    <!--  Menu Activity  -->
+    <string name="default_weather">0°</string>
+    <string name="hint_btn_menu">"Desplegar el menú"</string>
+
+    <string name="txt_modules">Módulos</string>
+    <string name="txt_augmented_reality">Realidad Aumentada</string>
+    <string name="txt_directory">Directorio</string>
+
+    <string name="undefined">undefined</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--  Login Activity  -->
+
+    <color name="bg_welcome_color">#0E3968</color>
+    
+    <color name="txt_bg_color">#FFFFFF</color>
+    <color name="btn_main_color">#0270E7</color>
+    <color name="btn_bg_color">#0E4483</color>
+
+    <color name="btn_transparent_bg">#00000000</color>
+
+    <!--  Menu Activity  -->
+    <color name="blue_bg">#1A2F5A</color>
+
+    <color name="footer_bg">#E99221</color>
+</resources>
