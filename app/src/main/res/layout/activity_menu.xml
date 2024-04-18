@@ -37,20 +37,25 @@
 
                     <TextView
                         android:id="@+id/txtWeather"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/white"
-                        android:textSize="25dp"
+                        android:layout_weight=".5"
                         android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/white"
+                        android:textAlignment="textEnd"
+
+                        android:textSize="25dp"
+
                         android:text="@string/default_weather"/>
 
                     <ImageView
                         android:id="@+id/imgWeather"
-                        android:layout_width="40dp"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-
-
-                        android:layout_weight="1"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight=".5"
                         app:srcCompat="@drawable/menu_weather" />
                 </LinearLayout>
 
@@ -59,11 +64,13 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".33"
+                    android:layout_marginTop="5dp"
                     android:textColor="@color/white"
                     android:textSize="30dp"
                     android:textAlignment="center"
-                    android:layout_gravity="bottom"
-                    android:text="Cucei" />
+                    android:layout_gravity="center"
+
+                    android:text="@string/txt_cucei_title" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -75,7 +82,7 @@
                         android:id="@+id/btnUserIcon"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:layout_marginStart="10dp"
+
                         android:layout_weight="1"
                         android:background="@color/btn_transparent_bg"
                         android:hint="@string/hint_btn_menu"
@@ -87,6 +94,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
                         android:layout_weight="1"
                         android:background="@color/btn_transparent_bg"
                         android:hint="@string/hint_btn_menu"

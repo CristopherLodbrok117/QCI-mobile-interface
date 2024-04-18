@@ -10,6 +10,7 @@
 
     <!--  Menu Activity  -->
     <string name="default_weather">0°</string>
+    <string name="txt_cucei_title">Cucei</string>
     <string name="hint_btn_menu">"Desplegar el menú"</string>
 
     <string name="txt_modules">Módulos</string>
