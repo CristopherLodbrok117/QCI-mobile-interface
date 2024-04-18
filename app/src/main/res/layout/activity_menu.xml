@@ -29,7 +29,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.33"
                     android:gravity="center"
@@ -56,25 +56,44 @@
 
                 <TextView
                     android:id="@+id/txtCucei"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight=".33"
                     android:textColor="@color/white"
                     android:textSize="30dp"
                     android:textAlignment="center"
-                    android:layout_gravity="center"
+                    android:layout_gravity="bottom"
                     android:text="Cucei" />
 
-                <ImageButton
-                    android:id="@+id/btnMenuIcon"
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginStart="10dp"
-                    android:layout_weight="1"
-                    android:background="@color/btn_transparent_bg"
-                    android:hint="@string/hint_btn_menu"
-                    android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/menu_menu_icon" />
+                    android:layout_weight="0.33"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/btnUserIcon"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/btn_transparent_bg"
+                        android:hint="@string/hint_btn_menu"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/menu_user" />
+
+                    <ImageButton
+                        android:id="@+id/btnMenuIcon"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/btn_transparent_bg"
+                        android:hint="@string/hint_btn_menu"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/menu_menu_icon" />
+                </LinearLayout>
+
             </LinearLayout>
 
             <ImageView
@@ -182,7 +201,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="280dp"
+                android:layout_height="290dp"
 
                 android:background="@color/white"
                 android:orientation="horizontal">
@@ -263,7 +282,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:background="@color/footer_bg"
-                android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
                 <LinearLayout
