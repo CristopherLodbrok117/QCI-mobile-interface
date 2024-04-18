@@ -261,15 +261,192 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="250dp"
                 android:background="@color/footer_bg"
-
+                android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"></LinearLayout>
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtProgressBasic"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="5dp"
+                        android:textSize="20sp"
+                        android:text="@string/progress_basic_msg" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBarBasic"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="5dp"
+                        android:progress="@integer/material_motion_duration_medium_2"
+                        android:layout_weight=".45" />
+
+                    <TextView
+                        android:id="@+id/txtPercentageBasic"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".15"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="10dp"
+                        android:textSize="20sp"
+                        android:text="@string/progress_default_percentage" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtProgressOptative"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="5dp"
+                        android:textSize="20sp"
+                        android:text="@string/progress_optative_msg" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBarOptative"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="5dp"
+                        android:progress="@integer/material_motion_duration_medium_2"
+                        android:layout_weight=".45" />
+
+                    <TextView
+                        android:id="@+id/txtPercentageOptative"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".15"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="10dp"
+                        android:textSize="20sp"
+                        android:text="@string/progress_default_percentage" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtProgressSpecial"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="5dp"
+                        android:textSize="20sp"
+                        android:text="@string/progress_special_msg" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBarSpecial"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="5dp"
+                        android:progress="@integer/material_motion_duration_medium_2"
+                        android:layout_weight=".45" />
+
+                    <TextView
+                        android:id="@+id/txtPercentageSpecial"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".15"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="10dp"
+                        android:textSize="20sp"
+                        android:text="@string/progress_default_percentage" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtProgress4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="5dp"
+                        android:textSize="20sp"
+                        android:text="@string/progress_default_msg" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar4"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="5dp"
+                        android:progress="@integer/material_motion_duration_medium_2"
+                        android:layout_weight=".45" />
+
+                    <TextView
+                        android:id="@+id/txtPercentage4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".15"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="10dp"
+                        android:textSize="20sp"
+                        android:text="@string/progress_default_percentage" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtProgress5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="5dp"
+                        android:textSize="20sp"
+                        android:text="@string/progress_default_msg" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar5"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="5dp"
+                        android:progress="@integer/material_motion_duration_medium_2"
+                        android:layout_weight=".45" />
+
+                    <TextView
+                        android:id="@+id/txtPercentage5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".15"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="10dp"
+                        android:textSize="20sp"
+                        android:text="@string/progress_default_percentage" />
+                </LinearLayout>
+
             </LinearLayout>
 
         </LinearLayout>
