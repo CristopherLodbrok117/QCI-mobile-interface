@@ -26,5 +26,7 @@
     <string name="progress_optative_msg">Optativa abierta</string>
     <string name="progress_special_msg">Especializante</string>
 
+    <!-- ============== Directory Activity ==============  -->
+    <string name="txt_directory_title">Directorio Cucei</string>
 
 </resources>
