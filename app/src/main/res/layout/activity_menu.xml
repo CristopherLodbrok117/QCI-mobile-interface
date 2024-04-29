@@ -99,7 +99,8 @@
                         android:background="@color/btn_transparent_bg"
                         android:hint="@string/hint_btn_menu"
                         android:scaleType="fitCenter"
-                        app:srcCompat="@drawable/menu_menu_icon" />
+                        app:tint="@color/white"
+                        app:srcCompat="@drawable/menu_icon" />
                 </LinearLayout>
 
             </LinearLayout>
